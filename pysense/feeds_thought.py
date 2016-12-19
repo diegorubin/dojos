@@ -43,23 +43,41 @@ class FeedsThought(ThoughtBase):
 
     # Método que é executado quando o processo é agendado
     def run(self):
-        pass
+        feeds = all(db().table('feeds'))
+        for feed in feeds:
+            request = Request(feed["name"], headers={'User-Agent': 'PySenseDaemon'})
+
+            atom = urlopen(request).read()
+            parsedAtom = xml.dom.minidom.parseString(atom)
+
+            document = parsedAtom.documentElement
+            # document.getElementsByTagName('title')[0].firstChild.data
+            items = document.getElementsByTagName('item')
+            for item in items:
+                itemTitle = item.getElementsByTagName('title')[0].firstChild.data
+                if not itemTitle in feed['value']:
+                    notify(feed['name'], itemTitle)
 
     # Listar feeds cadastrados:
     # Para executar o método: think feeds list
     # O retorno do método sempre deve ser uma string
     def list(self, argv):
-        return ''
+        feeds = all(db().table('feeds'))
+        result = []
+        for feed in feeds:
+            result.append(feed['name'])
+        return "\n".join(result)
 
     # Adicionar um feed:
     # Para executar o método: think feeds add <url>
     # O retorno do método sempre deve ser uma string
     def add(self, argv):
-        return ''
+        url = argv[3]
+        save_in_table(db().table('feeds'), url, [])
+        return url
 
 # Essa função é executada na inicialização do pensamento
 def init():
     thought = FeedsThought()
     thought.schedule(after=60)
     return thought
-
