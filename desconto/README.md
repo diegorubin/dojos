@@ -29,12 +29,9 @@ __Por exemplo, quanto esse carrinho?__
 
 __Resposta__
 
-(4 \* 16) - 20% \[primeiro livro, segundo livro, terceiro livro, quarto livro\]
+(5 \* 16) - 25% \[primeiro livro, segundo livro, terceiro livro, quarto livro, quinto livro\]
 
-\+ (4 \* 16) - 20% \[primeiro livro, segundo livro, terceiro livro, quinto livro\]
+\+ (3 \* 16) - 10% \[primeiro livro, segundo livro, terceiro livro\]
 
-= 51,2 * 2
-
-= 102,40
-
+= 103,20
 
