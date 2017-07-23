@@ -1,6 +1,6 @@
-#Desconto Progressivo
+# Desconto Progressivo
 
-##Descrição do Problema
+## Descrição do Problema
 Adaptado de http://codingdojo.org/kata/Potter/
 
 Um grande ecommerce pretende realizar uma promoção com desconto progressivo para
@@ -19,7 +19,7 @@ mas o quarto livro ainda custa R$ 16,00.
 Esse ecommerce pediu para escrever um código que dado uma lista de livros
 calcule o valor da compra.
 
-Por exemplo, quanto esse carrinho?
+__Por exemplo, quanto esse carrinho?__
 
 2 cópias do primeiro livro
 2 cópias do segundo livro
@@ -27,11 +27,14 @@ Por exemplo, quanto esse carrinho?
 1 cópia do quarto livro
 1 cópia do quinto livro
 
-resposta:
+__Resposta__
 
 (4 \* 16) - 20% \[primeiro livro, segundo livro, terceiro livro, quarto livro\]
-+ (4 \* 16) - 20% \[primeiro livro, segundo livro, terceiro livro, quinto livro\]
+
+\+ (4 \* 16) - 20% \[primeiro livro, segundo livro, terceiro livro, quinto livro\]
+
 = 51,2 * 2
+
 = 102,40
 
 
