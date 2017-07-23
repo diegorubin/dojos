@@ -1,4 +1,6 @@
 # Projetos em python
 *.pyc
 .ropeproject
+.idea
+target
 
