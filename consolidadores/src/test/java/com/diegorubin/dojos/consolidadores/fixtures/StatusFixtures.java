@@ -14,5 +14,19 @@ public class StatusFixtures {
                 add("instante",0);
             }
         });
+
+       Fixture.of(Status.class).addTemplate("sem-latitude").inherits("complete", new Rule() {
+            {
+                add("latitude", null);
+                add("instante",1);
+            }
+        });
+
+       Fixture.of(Status.class).addTemplate("sem-longitude").inherits("complete", new Rule() {
+            {
+                add("longitude", null);
+                add("instante",2);
+            }
+        });
     }
 }

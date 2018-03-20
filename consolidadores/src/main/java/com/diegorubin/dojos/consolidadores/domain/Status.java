@@ -11,8 +11,8 @@ public class Status {
 
     private String imei;
     private Integer instante;
-    private Float latitude;
-    private Float longitude;
+    private Double latitude;
+    private Double longitude;
 
     public String getImei() {
         return imei;
@@ -30,19 +30,19 @@ public class Status {
         this.instante = instante;
     }
 
-    public Float getLatitude() {
+    public Double getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(Float latitude) {
+    public void setLatitude(Double latitude) {
         this.latitude = latitude;
     }
 
-    public Float getLongitude() {
+    public Double getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(Float longitude) {
+    public void setLongitude(Double longitude) {
         this.longitude = longitude;
     }
 }
