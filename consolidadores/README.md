@@ -6,7 +6,7 @@
 
 - Existem mensagem sem latitude ou sem longitude
 
-## Relatório de distancia percorrida
+## Relatório de distancia
 
-## Relatório de velocidade média
-
+Fonte do calculo: https://www.mapanet.eu/PT/resources/Script-Distance.htm
+Calculo de distancia online: https://www.sunearthtools.com/pt/tools/distance.php
