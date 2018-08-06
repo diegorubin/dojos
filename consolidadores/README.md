@@ -2,7 +2,7 @@
 
 ## O Problema
 
-- O hardware foi mal feito e as informações não estão ordenada pelo instante.
+- O hardware foi mal feito e as informações não estão ordenada pelo instante. - OK
 
 - Existem mensagem sem latitude ou sem longitude
 
