@@ -1,6 +1,14 @@
 # Projetos em python
 *.pyc
 .ropeproject
+
+# Projetos em java
 .idea
 target
+
+# Projetos em c#
+MensagemCS/MensagemCS/bin
+MensagemCS/MensagemCS/obj
+MensagemCS/MensagemTest/bin
+MensagemCS/MensagemTest/obj
 
