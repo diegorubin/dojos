@@ -1,5 +1,9 @@
 # Mensagem
 
+## Documentação para auxilio
+
+Moq: https://github.com/Moq/moq4/wiki/Quickstart
+
 ## Problema
 
 Um dia enquanto você estava realizando aquela programadinha de final de semana. O primeiro ministro russo chega
