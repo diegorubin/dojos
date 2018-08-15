@@ -1,6 +1,6 @@
 ﻿namespace MensagemCS.Domains
 {
-    public class MensagemMudancaPosicao
+    public class MensagemMudancaPosicao : Mensagem
     {
         public Posicao Posicao { get; set; }
     }
