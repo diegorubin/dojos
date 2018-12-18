@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/CIT/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
+    "projectUniqueName": "/home/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
     "projectName": "MensagemCS",
-    "projectPath": "/home/CIT/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
-    "outputPath": "/home/CIT/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/obj/",
+    "projectPath": "/home/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
+    "outputPath": "/home/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

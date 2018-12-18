@@ -30,10 +30,12 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -176,23 +178,23 @@
     ]
   },
   "packageFolders": {
-    "/home/CIT/diegorubin/.nuget/packages/": {},
+    "/home/diegorubin/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/CIT/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
+      "projectUniqueName": "/home/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
       "projectName": "MensagemCS",
-      "projectPath": "/home/CIT/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
-      "packagesPath": "/home/CIT/diegorubin/.nuget/packages/",
-      "outputPath": "/home/CIT/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/obj/",
+      "projectPath": "/home/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/MensagemCS.csproj",
+      "packagesPath": "/home/diegorubin/.nuget/packages/",
+      "outputPath": "/home/diegorubin/Repos/diegorubin/dojos/MensagemCS/MensagemCS/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/CIT/diegorubin/.config/NuGet/NuGet.Config"
+        "/home/diegorubin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
