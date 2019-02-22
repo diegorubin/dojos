@@ -27,5 +27,5 @@ As mensagens de ataque são iniciadas o caracter γ. Esse caracter é seguido de
 um ponto e de uma avaliacao da qualidade da vaca representado por ζ
 
 exemplo:
-`βφnumeroιnumeroζ10`
+`γφnumeroιnumeroζ10`
 
