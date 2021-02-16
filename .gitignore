@@ -5,6 +5,10 @@
 # Projetos em java
 .idea
 target
+.settings
+.project
+.classpath
+
 
 # Projetos em c#
 MensagemCS/MensagemCS/bin
