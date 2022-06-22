@@ -1,7 +1,13 @@
 <?php
 
-namespace Mensagem\Domain;
+namespace App\Domain;
 
-class Mensagem
+class Message
 {
+    public $tipo = '';
+
+    public function __construct($tipo) {
+        $this->tipo = $tipo;
+    }
 }
+
